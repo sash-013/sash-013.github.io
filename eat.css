@@ -1,0 +1,205 @@
+.navbar{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+}
+
+.btn-style{
+    border-color: #e3b13b;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.5rem;
+    color: #e3b13b;
+    font-weight: bold;
+    font-size: large;
+}
+
+.nav-link
+{
+  font-weight: bold;
+  font-size: large;  
+  color: #e3b13b;
+}
+.nav-link act{
+  color:#e3b13b;
+} 
+.nav-link:hover{
+    color: white;
+}
+ 
+
+.imgmain{
+    width: 100%;
+    height:30rem;
+}
+
+
+.parallax {
+  
+  background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("blue2.jpg");
+  width: 100%;
+  height: 48rem;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  
+  
+  
+  
+}
+.rec{
+  
+  font-size: 80px;
+  text-align: center;
+  font-weight: bold;
+  color: whitesmoke;
+  /* font-family: 'Amatic SC', sans-serif; */
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Oswald', sans-serif;
+}
+
+.funkytxt{
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  color: #db2363;
+}
+
+span{
+  color: #eeb83b;
+}
+
+.maincontnt
+{
+    /* background-color:#57b8db; */
+    background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("off.avif");
+}
+
+.welcontnt{
+    color: white;;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    height: 10rem;
+    /* background-color: #C1C8E4; */
+    background-image: url(footergrad.jpeg);
+    align-items: center;
+    display: flex;
+}
+.foot{
+    
+  display: flex;
+    margin: auto;
+}
+.fa {  
+    padding: 1rem;  
+  text-align: center;  
+    margin: 1rem 1rem;  
+    font-size: 1rem;  
+    width: 4rem;  
+  }  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-github {  
+    background: black;  
+    color: white;  
+  }  
+  .fa-pinterest {  
+    background: #cb2027;  
+    color: white;  
+  }  
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+  .fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+  }  
+  .fa-google {  
+    background: #dd4b39;  
+    color: white;  
+  }  
+  .fa-snapchat-ghost {  
+    background: #fffc00;  
+    color: white;  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+  }  
+  .fa-skype {  
+    background: #00aff0;  
+    color: white;  
+  }  
+  .fa:hover {  
+      opacity: 0.9;  
+  } 
+  .eatery-list {
+    list-style-type: none;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 50px;
+  }
+  
+  .eatery-item {
+    /* background-color: #e3b13b; */
+    background-image: url(gradient.jpg);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .eatery-item:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .eatery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .eatery-details {
+    margin-top: 20px;
+  }
+  
+  .eatery-details h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  
+  .eatery-details p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+  }

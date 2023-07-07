@@ -1,0 +1,148 @@
+.navbar{
+    background-color: #ff4d43 ; 
+    
+    /* position: fixed; */
+    width: 100%;
+}
+
+.btn-style{
+    border-color: whitesmoke;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.5rem;
+    color: whitesmoke;
+}
+.nav-link
+{
+  font-weight: bold;
+  font-size: large;  
+  color: white;
+}
+.nav-link:hover{
+    color: white;
+}
+.act{
+    text-decoration: underline;
+}
+
+.parallax {
+  
+    background-image: url("ccdbg.jpg");
+    width: 100%;
+    height: 45rem;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#alot{
+  width: 100%;
+
+}
+
+
+.maincontnt{
+    background-color:whitesmoke ;
+}
+
+  .weltxt{
+    /* background-color: #ff4d43 ;  */
+    background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("coffeeleg.jpeg");
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color:whitesmoke;
+}
+.welcontnt{
+    color: black;;
+}
+
+.menuhd
+{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+    
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1000s;
+  }
+  
+  @keyframes fade {
+    from {opacity: 1}
+    to {opacity: 1}
+  }
+
+  footer{
+    height: 10rem;
+    background-color: red;
+    align-items: center;
+    display: flex;
+}
+.foot{
+    display: flex;
+    margin: auto;
+}
+.fa {  
+    padding: 1rem;  
+  text-align: center;  
+    margin: 1rem 1rem;  
+    font-size: 1rem;  
+    width: 4rem;  
+  }  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-github {  
+    background: black;  
+    color: white;  
+  }  
+  .fa-pinterest {  
+    background: #cb2027;  
+    color: white;  
+  }  
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+  .fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+  }  
+  .fa-google {  
+    background: #dd4b39;  
+    color: white;  
+  }  
+  .fa-snapchat-ghost {  
+    background: #fffc00;  
+    color: white;  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+  }  
+  .fa-skype {  
+    background: #00aff0;  
+    color: white;  
+  }  
+  .fa:hover {  
+      opacity: 0.9;  
+  }
